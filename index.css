@@ -1,0 +1,43 @@
+body {
+	background-color: #73897f;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #ccbfa5;
+
+} 
+
+a {
+	padding-left: 5rem;
+}
+
+.container {
+	width: 1200px;
+	margin: auto;
+}
+
+header {
+	background-color: #c0dbe0;
+}
+
+.header {
+	padding: 1rem;
+}
+
+main {
+	background-color: #f1e9da;
+}
+
+section {
+	background-color: #ffffff;
+	padding: 3rem;
+}
+
+footer {
+	background-color: #73897f;
+}
+
+.footer{
+	padding: 3rem;
+}
