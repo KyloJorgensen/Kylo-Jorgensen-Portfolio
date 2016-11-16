@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans');
 
 body {
 	background-color: #2f1f40;
 	margin: 0;
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Open+Sans', sans-serif;
+	line-height: 150%;
+	letter-spacing: 1px;
 }
 
 h2 {
 	color: #ECE2FF;
+	font-family: 'Dosis', sans-serif;
 }
 
 h1 {
 	color: #76717F;
+	font-family: 'Dosis', sans-serif;
 } 
 
 a {
@@ -20,12 +24,12 @@ a {
 }
 
 .container {
-	width: 1200px;
 	margin: auto;
 }
 
 header {
 	background-color: #654B7F;
+
 }
 
 .header {
@@ -50,5 +54,11 @@ footer {
 }
 
 .footer a {
-	color: #654B7F;
+	color: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}	
 }
