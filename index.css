@@ -48,6 +48,10 @@ section {
     margin: 0;
 }
 
+article {
+	display: table;
+    width: 100%;
+}
 
 article .image, article .content {
 	width: 50%;
@@ -59,10 +63,9 @@ article .image, article .content {
     padding: 0em;
     height: auto;
     border: none;
-}
-
-
-article .image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
 }
 
 article .content .inner {
@@ -76,7 +79,6 @@ article .content .inner {
 
 .one .image {
 	background-image: url(https://raw.githubusercontent.com/KyloJorgensen/Kylo-Jorgensen-Portfolio/master/images/pathfinder.png);
-	background-size: cover;
 }
 
 .two, .two a {
@@ -86,7 +88,6 @@ article .content .inner {
 
 .two .image {
 	background-image: url(https://raw.githubusercontent.com/KyloJorgensen/Kylo-Jorgensen-Portfolio/master/images/spotify.png);
-	background-size: cover;
 }
 
 .three, .three a {
@@ -96,7 +97,6 @@ article .content .inner {
 
 .three .image {
 	background-image: url(https://raw.githubusercontent.com/KyloJorgensen/Kylo-Jorgensen-Portfolio/master/images/fitforthekingdom.png);
-	background-size: cover;
 }
 
 
@@ -107,7 +107,6 @@ article .content .inner {
 
 .four .image {
 	background-image: url(https://raw.githubusercontent.com/KyloJorgensen/Kylo-Jorgensen-Portfolio/master/images/weather.png);
-	background-size: cover;
 }
 
 
@@ -141,7 +140,5 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
-	.container {
-		width: 1200px;
-	}	
+
 }
