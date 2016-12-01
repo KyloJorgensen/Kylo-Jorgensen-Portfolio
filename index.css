@@ -54,14 +54,12 @@ article {
 }
 
 article .image, article .content {
-	width: 50%;
-    margin: -3px;
-	display: inline-block;
+	width: 100%;
 	vertical-align:top;	
-	display: table-cell;
+	display: block;
     margin: 0em;
     padding: 0em;
-    height: auto;
+    height: 400px;
     border: none;
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,8 +71,8 @@ article .content .inner {
 }
 
 .one, .one a {
-	background-color: #1abc9c;
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #1abc9c;
 }
 
 .one .image {
@@ -82,8 +80,8 @@ article .content .inner {
 }
 
 .two, .two a {
-	background-color: #ffffff;
-	color: #1abc9c;
+	background-color: #1abc9c;
+	color: #ffffff;
 }
 
 .two .image {
@@ -91,8 +89,8 @@ article .content .inner {
 }
 
 .three, .three a {
-	background-color: #3498db;
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #3498db;
 }
 
 .three .image {
@@ -101,8 +99,8 @@ article .content .inner {
 
 
 .four, .four a {
-	background-color: #ffffff;
-	color: #3498db;
+	background-color: #3498db;
+	color: #ffffff;
 }
 
 .four .image {
@@ -139,6 +137,18 @@ footer {
 	color: #ffffff;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1250px) {
+	.invert .hide {
+		display: none;
+	}
 
+	.invert .show {
+		display: table-cell;
+	}
+
+	article .image, article .content {
+		width: 50%;
+		height: auto;
+		display: table-cell;
+	}
 }
